@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Website Gaming</title>
+  <style>
+    
+#oth
+{
+  text-decoration: none ;
+  padding: 15px ;
+}
+.sidenav {
+  height: 85% ;
+  width: 0;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(233,237,242) ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-style: solid ;
+  font-size: 10px ;
+}
+#imeges{
+  height: 12%;
+  width: 40%;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.text{
+  text-decoration: none;
+}
+ #top
+{
+width: auto ;
+height: 10px;
+margin: 10 px ;
+background-color: white;
+text-align: right ;
+}
+#main
+{
+  background-image: url("LogoMakerCa-1620803365215.jpg");
+ 
+  background-color: #0F4069;
+  height: 40px;
+  width: 50px ;
+  background-position: left ;
+  background-repeat: no-repeat;
+  background-size: cover;
+ // position: relative;
+  margin-top: -45px ;
+  
+}
+#side{
+   background-image: url("logo.jpg");
+   margin-top: -41px ;
+   margin-left: 40px;
+   background-color: #0F4069;
+  height: 40px;
+  width: 130px ;
+  background-position: left ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#name
+{
+  text-align: right ;
+  color: white;
+  font-size: 30px ;
+  font-family: fantasy;
+}
+#intro
+{ 
+  //background-image: url("SAVE_20210511_143739.jpg");
+  background-color: black;
+  height: 190px;  
+  width: auto ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 30px ;
+}
+#container {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px ;
+  margin-bottom: 10px ;
+}
+
+.bar1, .bar2, .bar3{
+  width: 15px;
+  height: 2px;
+  background-color: #333;
+  margin: 3px;
+  margin-left: 3px ;
+  margin-bottom: 4px ;
+  transition: 0.4s;
+}
+
+#post {
+   margin: 3px ;
+   height: auto;   
+   width: auto ;
+   padding-bottom: 15px ;
+}
+#foot {
+   margin-top: 3px;
+   height: auto;
+   width: auto;
+   text-decoration: none;
+   color: white;
+   background-color: black;
+}
+body {
+  font-family: fantasy;
+  margin: 0px ;
+  padding: 0px ;
+}
+
+.sidenav a {
+  padding: 5px 5px 5px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1 ;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  text-decoration: none ;
+  top: 0;
+  left: 0px;
+  font-size: 36px;
+  margin: 1px ;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.deff{
+  padding-left: 15px;
+  padding-top: 40px ;
+  color: white ;
+  font-family: "Times New Roman", Times, serif;
+ font-family: Courier, Monaco, monospace;
+  font-size: 180% ;
+}
+#intosidenav
+{
+  border-bottom: groove ;
+  margin-bottom: 5px ;
+  font-size: 17px;
+  margin-left: 20px;
+  font-size: 5px ;
+}
+#sug
+{
+  margin-right: 150px ;
+  margin-left: 15px;
+  padding-top: 10px;
+  color: white;
+}
+#usrform
+{
+  text-align: right;
+  margin: 5px ;
+  margin-top: -67px;
+  padding-right: 5px;
+}
+#lbl
+{
+  margin-right: 20px;
+  margin-top: -67px;
+  margin-bottom: 3px;
+}
+  </style>
+  <script>
+      function myFunction(x) {
+  x.classList.toggle("change");
+  openNav();
+}
+  console.log("A website made by Pritam (riju) \nemail : pritambasak024@gmail.com");
+  
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  </script>
+</head>
+<body>
+  
+<div id="mySidenav" class="sidenav" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="" style="color:black;">HOME</a>
+  <div id="intosidenav">
+      <a href="http://ellisonleao.github.io/clumsy-bird/" style="color:gray;">Clumsy bird</a>
+      <a href="https://play2048.co/" style="color:gray;">2048</a>
+      <a href="http://martindrapeau.github.io/backbone-game-engine/super-mario-bros/index.html" style="color:gray;">Super Mario</a>
+      <a href="https://pacman.platzh1rsch.ch/" style="color:gray;">Pac Man</a>
+      <a href="https://hextris.io/" style="color:gray;">Hextris</a>
+      <a href="https://mahdif.github.io/taptaptap/play/" style="color:gray;">Tap Tap</a>
+  </div>
+  <a href="https://bit.ly/webgameing/terms" style="color:black; padding-top:9px;">Terms and conditions</a>
+  <a href="https://bit.ly/webgameing/about" style="color:black;">About Us </a>
+  <a href="https://bit.ly/webgameing/contact" style="color:black;">Contact Us</a>
+</div>
+
+  <div id="top">
+    <div id="container" onclick="myFunction(this)"  >
+           <div class="bar1"></div>
+           <div class="bar2"></div>
+           <div class="bar3"></div>
+          
+         </div>
+     <div>
+        <div class="logo">
+          <div id="main"></div>
+          <div id="side"></div>
+        </div>
+    </div>
+  </div>
+  <div id="intro">
+        <div class="deff">Web-Gaming 
+              <div id="intodeff" style="font-size:15px; padding-top:10px;">
+                Webgaming is a platform to play games online.Thank you for visiting our site .. 
+              </div>
+        </div>
+    </div>
+  <div id="post">
+    <a href="http://ellisonleao.github.io/clumsy-bird/">
+     <img id="imeges" src ="cb.jpg"></img>
+    </a>
+    <a href="https://play2048.co/">
+      <img id="imeges" src ="20.jpg"></img>
+    </a>  
+    <a href="http://martindrapeau.github.io/backbone-game-engine/super-mario-bros/index.html">
+     <img id="imeges" src ="sm.jpg"></img>
+    </a>
+    <a href="https://pacman.platzh1rsch.ch/">
+      <img id="imeges" src ="pac.jpg"></img>
+    </a>  
+     <a href="https://hextris.io/">
+     <img id="imeges" src ="hrt.jpg"></img>
+    </a>
+    <a href="https://mahdif.github.io/taptaptap/play/">
+      <img id="imeges" src ="tap.jpg"></img>
+    </a>  
+  </div>
+  <div id="foot">
+    <div>
+      <div id="sug">
+        <label>Pages:</label><br>
+        <a href="https://bit.ly/webgameing/terms" style="text-decoration:none;color:yellow;">Terms and conditions</a>
+        <br>
+        <a href="https://bit.ly/webgameing/about" style="text-decoration:none;color:yellow;">About us</a><br>
+        <a href="https://bit.ly/webgameing/contact" style="text-decoration:none;color:yellow;">Contact us</a><br>
+      </div>
+<div>
+    
+</div>      
+      <div id="oth" class="text">
+        Other sites that you will like:  <br>
+        <a href="https://picturestaker.blogspot.com/" style="text-decoration:none; color: yellow;">
+        Photo-shooter
+        </a><br>
+        <a href="https://facttalker.blogspot.com/" style="text-decoration:none; color: yellow;">
+        Fact-talk
+        </a><br>
+        <a href="https://thefactside.blogspot.com/" style="text-decoration:none; color: yellow;">
+        Fact-side
+        </a><br>
+        <a href="https://ccodemaker.blogspot.com/" style="text-decoration:none; color: yellow;">
+        Coding-in-C
+        </a><br>
+      </div>
+    </div>
+      
+</body>
+</html>
